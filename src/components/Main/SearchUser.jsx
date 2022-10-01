@@ -8,7 +8,7 @@ class SearchUser extends React.Component {
 
             <form onSubmit={this.props.handleSubmit} className='SearchUserForm' >
                 <label htmlFor="userNameInput">Github username:</label>
-                <input type="text" id='userNameInput' placeholder='e.g. facebook' onChange={this.props.getUser} />
+                <input type="text" id='userNameInput' placeholder='try Buzz42er' onChange={this.props.getUser} />
                 <Button id='seeUserButton' onClick={this.props.goToUser} >GO!</Button>
             </form>
         )
