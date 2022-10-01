@@ -1,0 +1,109 @@
+body {
+  background-color: #282c34;
+}
+
+.App {
+  text-align: center;
+  color: white;
+}
+
+.SearchUserForm,
+.UserDisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+
+  padding: 40px 40px;
+  background-color: #1f6b81;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.569);
+}
+
+.UserDisplay {
+  max-width: 500px;
+}
+
+.SearchUserForm > input {
+  width: 400px;
+  height: 50px;
+  font-size: 40px;
+  margin-bottom: 50px;
+
+  background-color: #282c34;
+  color: aliceblue;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.593);
+}
+
+.SearchUserForm > input:focus-visible {
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px black;
+}
+
+.SearchUserForm > label,
+.UserDisplay > div {
+  font-size: 30px;
+
+  text-align: start;
+  align-self: flex-start;
+}
+
+.UserDisplay > div:first-child {
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.SearchUserForm > button,
+.UserDisplay > button {
+  padding: 15px 50px;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 10px;
+  border: none;
+  color: white;
+
+  background-color: #2588a4;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.547);
+}
+
+.SearchUserForm > button:hover,
+.UserDisplay > button:hover {
+  background-color: #164c5c;
+}
+
+.SearchUserForm > button:active,
+.UserDisplay > button:active {
+  padding: 10px 45px;
+  margin: 5px 5px;
+}
+
+.nameAndIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.UserName {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.UserLogo > img {
+  border-radius: 10px;
+}
+
+.oneRepo {
+  border: #164c5c 1px solid;
+  margin: 2px 0;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #247b93dc;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.611);
+}
